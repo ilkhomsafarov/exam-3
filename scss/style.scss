@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+@import "../font/font.css";
+
+body{
+ background: #4499FE;
+}
+
+.card{
+    width: 1202px;
+    margin: auto;
+    height: auto;
+    padding-top: 23px;
+}
+
+.title-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+    h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        
+        color: #FFFFFF;
+        
+    }
+}
+
+form{
+  margin-bottom: 47px;
+    position: relative;
+    .top-inputs{
+        margin-bottom: 32px;
+        display: flex;
+        input{
+          width: 297px;
+          height: 55px;
+          background: #E9E9E9;
+          border-radius: 10px;
+          outline:none;
+          border: none;
+          text-indent: 17px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: #777777;
+          margin-right: 28px;
+
+        }
+    }
+        
+        
+
+    button{
+        width: 102px;
+        height: 41px;
+        background: #1DE755;
+        position: absolute;
+        right: 37px;
+        top: 55px;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        
+    }
+    .inputs-bottom{
+        input{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          color: #777777;
+          
+        }
+        input:first-child{
+            width: 297px;
+            height: 55px;
+            background: #E9E9E9;
+            border-radius: 10px;
+            outline:none;
+            border: none;
+            margin-right: 28px;
+            text-indent: 17px;
+        }
+        input:last-child{
+            width: 622px;
+            height: 55px;
+            background: #E9E9E9;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            text-indent: 17px;
+        }
+    }
+}
+    
+
+
+
+.cardItemEl{
+  margin: 0 auto;
+  width: 1202px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  padding-left: 31px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  margin-bottom: 57px;
+  position: relative;
+  animation: anime 0.7s;
+  .cardDescriptionEl{
+    width: 341px;
+    .cardNameEl{
+      display: flex;
+      margin-bottom: 17px;
+      cursor: pointer;
+      strong{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-right: 10px;
+      }
+    }
+    .cardPriceWrapEl{
+      display: flex;
+      margin-bottom: 17px;
+      cursor: pointer;
+      strong{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-right: 10px;
+      }
+    }
+    .cardShefWrapEl{
+      display: flex;
+      margin-bottom: 17px;
+      cursor: pointer;
+      strong{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-right: 6px;
+      }
+    }
+    .cardPlaceWrapEl{
+      display: flex;
+      cursor: pointer;
+      strong{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-right: 5px;
+      }
+      
+    }
+  }
+  .cardImage{
+    width: 252px;
+    height: 168px;
+    border-radius: 18px;
+    margin-right: 42px;
+  }
+  .cardItemWrapper{
+    width: 180px;
+    position: absolute;
+    top: 33px;
+    right: 40px;
+    .CardRemoveEl{
+      width: 180px;
+      height: 43px;
+      background: #FB2020;
+      margin-bottom: 13px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+      border: none;
+    }
+    .cardDateTime{
+      width: 180px;
+      height: 43px;
+      background: #F5D00D;
+      margin-bottom: 24px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+      border: none;
+    }
+    .cardComplateEl{
+      display: block;
+      width: 180px;
+      height: 43px;
+      background: #15E04E;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+      border: none;
+    }
+    .cardComlateRemove{
+      display: none;
+      width: 180px;
+      height: 43px;
+      background: #15E04E;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+      border: none;
+    }
+  }
+}
